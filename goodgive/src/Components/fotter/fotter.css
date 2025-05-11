@@ -1,0 +1,78 @@
+.fotter-img img{
+    width: 16%;
+}
+.fotter-img h2{
+    font-size: 20px;
+}
+.foote-head{
+    margin-top: 5rem;
+}
+.fotter-cont h1{
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.fotter-cont h4{
+    font-size: 20px;
+}
+.fotter-cont p{
+    text-align:start;
+    font-size: 14px;
+    margin-right: 20px;
+    color: rgb(107, 104, 104);
+}
+.fotter-btn{
+    display: flex;
+    gap: 20px;
+}
+.fotter-btn button{
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border: none;
+    background-color: #ffac13;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fotter-btn button:hover{
+    background-color:white;
+color: #ffaf40 ;
+border: 2px solid #ffaf40 ;
+}
+.fotter-right{
+    margin-top:5rem;
+}
+.fotter-right h2{
+    font-size: 23px;
+    font-weight: 600;
+}
+.fotter-right p{
+    font-size: 14px;
+    margin-right: 20px;
+    color: gray;
+}
+.fotter-detail p{
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.fotter-link a{
+    color: rgb(66, 64, 64);
+    font-size: 20px;
+    margin: 3px;
+}
+.footer-img{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+@media screen and (max-width:428px) {
+    .fotter-img img{
+        width: 16%;
+    }
+    
+    .foote-head{
+    margin-top: 0rem;
+}
+    
+}

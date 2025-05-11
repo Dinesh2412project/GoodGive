@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.navbar-logo{
+    display: flex;
+    flex-direction: column;
+}
+.navber-icons{
+    display:none;
+    font-size: 20px;
+}
+.active{
+    border: 1px solid #ffaf40;
+    color: #ffaf40;
+    background-color: none;
+    }
+.navbar-logo img{
+    width: 40%;
+    margin-left: 3.5rem;
+    margin-top: 20px;
+}
+.navbar{
+    width: 100%;
+    height: 95vh;
+}
+.navbar-head{
+    display: flex;
+    justify-content:flex-start;
+    margin-left:0px;
+    width: 100%;
+    align-items: center;
+    height: 80px;
+
+
+}
+.navbar-logo h2{
+   font-weight: 500;
+   font-size: 20px;
+   margin-left:3rem;
+   text-transform: capitalize;
+}
+.navbar-head ul{
+    display: flex;
+    margin-left: 25px;
+    gap: 20px;
+    list-style-type: none;
+}
+.navbar-head ul li a{
+text-decoration: none;
+color: rgb(48, 45, 45);
+text-transform: capitalize;
+font-size: 15px;
+font-weight: 600;
+
+}
+.navbar-head ul li a:hover{
+    color: #ffaf40;
+}
+.navbar-icon{
+    display: flex;
+    gap: 20px;
+    margin-left: 20rem;
+    align-items: center;
+}
+.navbar-icon span{
+    font-size: 20px;
+    color: rgb(102, 103, 105);
+}
+.navbar-icon span:hover{
+    color: #ffaf40;
+    cursor: pointer;
+}
+.navbar-icon button{
+    padding: 8px 25px;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #ffaf40;
+    font-weight: 600;
+    border:2px solid #ffaf40 ;
+    border-radius:5px;
+    background: none;
+    cursor: pointer;
+}
+.navbar-icon button:hover{
+background-color: #ffaf40  ;
+color: white;
+}
+                           /*SECOND METHODS OF CSS..../////*/
+.navbar-fotter{
+    display: flex;
+    width: 80%;
+    height: 430px;
+    margin-left: 7rem;
+    margin-top: 20px;
+}      
+.navbar-left{
+    width: 53%;
+    height: 430px;
+}  
+.navbar-left h1{
+    font-size: 45px;
+    margin-left: 7rem;
+    text-transform: capitalize;
+    margin-top: 27px;
+}   
+.navbar-left h2{
+    font-size: 40px;
+    margin-left: 7rem;
+    color: #227093;
+    text-transform: capitalize;
+}
+.navbar-left p{
+    margin-left: 7rem;
+    text-align: center;
+    font-size: 15px;
+    width: 60%;
+}
+.nav-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.nav-btn button{
+    color: #f5f6fa;
+    padding: 10px 25px;
+    background-color: #ffaf40;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.nav-btn button:hover{
+background-color:white;
+color: #ffaf40 ;
+border: 2px solid #ffaf40 ;
+}
+
+.navbar-right{
+    width: 47%;
+    position: relative;
+}  
+.navbar-right img{
+    width: 100%;
+    height: 450px;
+    z-index: 1;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    bottom: 30px;
+    position: absolute;
+}  
+.navbar-box{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    z-index: 2;
+    background-color:#dfe6e9;
+    top: 1.8rem;
+    left: 27%;
+    border-radius: 20px;
+}   
+.nav-fotter-img{
+    width: 330px;
+    height: 100px;
+    position: absolute;
+    top:23em;
+    z-index: 3;
+    left: 5rem;
+}
+
+@media screen and (max-width:428px){
+    .navbar-logo{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navbar-logo img{
+        width: 40%;
+        margin-left: 4rem;
+        margin-top: 20px;
+    }
+    .navbar{
+        width: 100%;
+        height: 95vh;
+        position: relative;
+    }
+    .navbar-head{
+        display: flex;
+        justify-content:flex-start;
+        margin-left:10px;
+        width: 89%;
+        align-items: center;
+        height: 80px;
+        background-color: none;
+    
+    }
+    .navber-icons{
+        display:flex;
+        font-size: 35px;
+        margin-left: 120px;
+        background-color: #2c3e50;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+
+    }
+    .navbar-logo h2{
+       font-weight: 500;
+       font-size: 20px;
+       margin-left:3rem;
+       text-transform: capitalize;
+    }
+    .navbar-head ul{
+        display: flex;
+        width: 100%;
+        height: 370px;
+        background-color:#2c3e50;
+        margin-left:0px;
+        padding-top: 20px;
+        position: absolute;
+        flex-direction: column;
+        margin-top: 30rem;
+        align-items: center;
+        gap: 30px;
+        z-index: 4;
+        left:-100%;
+        list-style-type: none;
+    }
+    .navbar-head ul li a{
+    text-decoration: none;
+    color:white;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    
+    }
+    .navber-thems.active{
+        left: 1px;
+    }
+    .navbar-head ul li a:hover{
+        color: #ffaf40;
+    }
+    .icons{
+        display: none;
+    }
+    .navbar-icon{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        gap: 10px;
+        margin-top: 40rem;
+        margin-left:10rem;
+        align-items: center;
+    }
+    .navbar-icon span{
+        font-size: 20px;
+        color: rgb(102, 103, 105);
+    }
+    .navbar-icon span:hover{
+        color: #ffaf40;
+        cursor: pointer;
+    }
+    .navbar-icon button{
+        padding: 8px 25px;
+        text-transform: capitalize;
+        font-size: 15px;
+        color: #ffaf40;
+        font-weight: 600;
+        border:2px solid #ffaf40 ;
+        border-radius:5px;
+        background: none;
+        cursor: pointer;
+    }
+                               /*SECOND METHODS OF CSS..../////*/
+.navbar-fotter{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-left: 1px;
+    margin-top: 30px;
+}      
+.navbar-left{
+    width: 95%;
+    height: 300px;
+    margin-left: 10px;
+}  
+.navbar-left h1{
+    font-size: 30px;
+    margin-left: 2rem;
+    text-transform: capitalize;
+    margin-top: 27px;
+}   
+.navbar-left h2{
+    font-size: 30px;
+    margin-left: 2rem;
+    color: #227093;
+    text-transform: capitalize;
+}
+.navbar-left p{
+    margin-left: 2rem;
+    text-align:start;
+    margin-right: 10px;
+    font-size: 15px;
+    width: 90%;
+}
+.nav-btn{
+    width: 98%;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+.active{
+border: 1px solid #ffaf40;
+color: #ffaf40;
+background-color: none;
+}
+.nav-btn button{
+    color: #f5f6fa;
+    padding:10px;
+    background-color: #ffaf40;
+    border: none;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.nav-btn button:hover{
+    background-color:white;
+color: #ffaf40 ;
+border: 2px solid #ffaf40 ;
+}
+
+.navbar-right{
+    width: 100%;
+    position: relative;
+    margin-top: 23rem;
+
+}  
+.navbar-right img{
+    width: 93%;
+    height: 320px;
+    z-index: 1;
+    margin-left: 30px;
+    position: absolute;
+}  
+.navbar-box{
+    position: absolute;
+    width: 250px;
+    height: 280px;
+    z-index: 2;
+    background-color:#dfe6e9;
+    top: -330px;
+    left: 19%;
+    border-radius: 20px;
+}   
+.nav-fotter-img{
+    width: 330px;
+    height: 100px;
+    position: absolute;
+    top:-80px;
+    z-index: 3;
+    left: 1.5rem;
+}
+}

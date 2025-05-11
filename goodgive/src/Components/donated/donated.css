@@ -1,0 +1,218 @@
+.donated{
+    width: 100%;
+    height: 160vh;
+    position: relative;
+    background-color: #ebf9fa;
+    margin-top:-56px;
+}
+.dontade-head{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     margin-top: 2rem;
+}
+.dontade-head h1{
+    font-weight: 600;
+    font-size: 30px;
+    margin-top:3rem;
+    text-transform: capitalize;
+}
+.dontade-head p{
+    width: 60%;
+    color: rgb(102, 101, 101);
+}
+.donate-boxes{
+    width: 73%;
+    height: 650px;
+    margin-left: 12rem;
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    text-align: center;
+    gap:15px;
+    justify-content:center;
+}
+.dont-box{
+    width: 44%;
+    height: 300px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 10px 15px 10px #1414140d;
+    transition:transform .3s ease;
+    border: 1px solid rgb(245, 237, 237);
+    cursor: pointer;
+
+}
+.dont-box:hover{
+    transform: translateY(-5px);
+}
+.dont-box span{
+    font-size: 70px;
+    border-radius: 50px;
+    
+}
+.don-icon-1,.don-icon-2,.don-icon-3,.don-icon-4{
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 50px;
+}
+.don-icon-1{
+    background-color: #34ace0;
+    color: #0d4158;
+}
+.don-icon-2{
+    background-color: #f8a5c2;
+    color: #bb154f;
+}
+.don-icon-3{
+    background-color: #b2bec3;
+    color: #0d4158;
+}
+.don-icon-4{
+    background-color: #81ecec;
+    color: #145774;
+}
+.dont-box h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 6px;
+}
+.dont-box p{
+    font-size: 15px;
+    text-align: center;
+    color: #424546;
+    margin: 0px 15px;
+}
+.dont-btn{
+    text-align: center;
+    margin-top:2rem;
+    margin-left: 44%;
+    justify-content: center;
+    padding: 10px 50px;
+    background-color: red;
+    color: white;
+    background-color: #f39c12;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.dont-btn:hover{
+    background: none;
+    color: #ffaf40 ;
+    border: 2px solid #ffaf40 ;
+}
+.btm-img{
+    position: absolute;
+bottom: 1px;
+left: 10px;
+width: 20%;
+}
+@media screen and (max-width:428px){
+    .donated{
+        width: 100%;
+        height: 110%;
+        background-color:#f7f8fa;
+        position: relative;
+        margin-top: 0px;
+    }
+    .dontade-head{
+        display: flex;
+        flex-direction: column;
+         align-items: center;
+         margin-top: 2rem;
+    }
+    .dontade-head h1{
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .dontade-head p{
+        width: 90%;
+        margin-left: 20px;
+        color: rgb(102, 101, 101);
+    }
+    .donate-boxes{
+        width: 95%;
+        height: 130%;
+        margin-left: 10px;
+        display: flex;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 15px;
+        justify-content: center;
+    }
+    .dont-box{
+        width: 99%;
+        height: 350px;
+        background-color:#079992;
+        border-radius: 10px;
+        box-shadow: none;
+        color: white;
+    }
+    .dont-box span{
+        font-size: 70px;
+        border-radius: 50px;
+        
+    }
+    .don-icon-1,.don-icon-2,.don-icon-3,.don-icon-4{
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 50px;
+    }
+    .don-icon-1{
+        background-color: #34ace0;
+        color: #0d4158;
+    }
+    .don-icon-2{
+        background-color: #f8a5c2;
+        color: #bb154f;
+    }
+    .don-icon-3{
+        background-color: #b2bec3;
+        color: #0d4158;
+    }
+    .don-icon-4{
+        background-color: #81ecec;
+        color: #145774;
+    }
+    .dont-box h3{
+        text-transform: capitalize;
+        font-size: 20px;
+        padding: 6px;
+    }
+    .dont-box p{
+        font-size: 15px;
+        text-align: center;
+        color:white;
+        margin: 0px 15px;
+    }
+    .dont-btn{
+        text-align: center;
+        margin-top:1rem;
+        margin-left: 26%;
+        justify-content: center;
+        padding: 10px 50px;
+        color: white;
+        background-color: #f39c12;
+        border: none;
+        text-transform: capitalize;
+        border-radius: 5px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-bottom:3rem;
+    }
+    .dont-btn:hover{
+     background: none;
+    color: #ffaf40 ;
+    border: 2px solid #ffaf40 ;
+    }
+    .btm-img{
+        position: absolute;
+    bottom: 0px;
+    margin-top: 20px;
+    left: 2px;
+    width: 30%;
+    }
+}

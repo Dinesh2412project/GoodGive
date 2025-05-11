@@ -1,0 +1,135 @@
+.stories{
+    background-color: rgb(230, 228, 228);
+    width: 40%;
+    height: 320px;
+    position: relative;
+    margin-top: 55px;
+    border-radius: 15px;
+    box-shadow: 10px 15px 10px #1414140d;
+    transition:transform .3s ease;
+    border: 1px solid rgb(245, 237, 237);
+    z-index: 6;
+
+}
+.storiess{
+ width: 75%;
+ margin: auto;
+height:500px;
+}
+.stories:hover{
+background-color:#fda222;
+    color: white;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.stor-head{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 700;
+}
+.stor-para{
+    text-align: center;
+    width: 60%;
+    margin-left: 24%;
+}
+
+.stories img{
+    width: 25%;
+    position: absolute;
+    top: -50px;
+    left:40%;
+    border: 2px solid #fda222;
+    border-radius: 50px;
+}
+.stories h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.stories span{
+    margin-left: 50%;
+    font-size: 50px;
+    margin-bottom: 1px;
+}
+.stories p{
+    text-align: center;
+    padding: 0px 20px;
+}
+.storie-img{
+    width: 78%;
+    height: 480px;
+    position: absolute;
+    top: 505%;
+    z-index:-1;
+}
+@media screen and (max-width:428px) {
+    .stories{
+    background-color: rgb(230, 228, 228);
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-top: 55px;
+    border-radius: 15px;
+    box-shadow: 10px 15px 10px #1414140d;
+    transition:transform .3s ease;
+    border: 1px solid rgb(245, 237, 237);
+    z-index: 6;
+
+}
+.storiess{
+ width: 95%;
+ margin: auto;
+height:500px;
+}
+.stories:hover{
+background-color:#fda222;
+    color: white;
+    transform: translateY(-10px);
+}
+.stor-head{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 700;
+}
+.stor-para{
+    text-align: center;
+    width: 100%;
+    margin-left: 2%;
+}
+
+.stories img{
+    width: 55%;
+    position: absolute;
+    top: -40px;
+    left:22%;
+}
+.stories h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.stories span{
+    margin-left: 50%;
+    font-size: 50px;
+    margin-bottom: 1px;
+}
+.stories p{
+    text-align: center;
+    padding: 0px 20px;
+    display: none;
+}
+.storie-img{
+    width: 78%;
+    height: 480px;
+    position: absolute;
+    top: 505%;
+    z-index:-1;
+    display: none;
+}
+}
