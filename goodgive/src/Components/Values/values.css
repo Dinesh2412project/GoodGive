@@ -169,12 +169,14 @@
 
                                       /*SECOND METHODES OF AMOUNT.......*/ 
 .valu-buttom-box{
-  width: 100%;
+  width: 95%;
   height: 800px;
   background-color:#227093;
   margin-top: 2rem;
   position: relative;
   z-index: 2;
+  margin-left: 12px;
+  border-radius: 5px;
 }
 .btum-1{
   color: white;

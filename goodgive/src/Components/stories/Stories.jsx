@@ -18,7 +18,17 @@ const SimpleSlider = () => {
     autoplaySpeed: 2000
   };
 
+  const setting = {
+    className: "",
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: true
+  };
+
   return (
+    <div className="stor">
     <div className='storiess'>
       <h2 className='stor-head'>success stories </h2>
       <p className='stor-para'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eos temporibus illum itaque cum ipsum quasi a vel neque velit!</p>
@@ -50,7 +60,43 @@ const SimpleSlider = () => {
         </div>
 
       </Slider>
+      </div>
+
+
+      <div className="slider-container">
+      <Slider {...setting}>
+
+        <div className="stories">
+          <img src={Asha} alt="img" /> 
+          <h2>Asha's story</h2>
+          <span>"</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni expedita est, odio delectus rem consequatur odit, molestiae veniam iste, suscipit exercitationem? At atque explicabo nesciunt.</p>
+          
+        </div>
+        <div className="stories ">
+          <img src={Story} alt="" />
+          <h2>pinto's story</h2>
+          <span>"</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni expedita est, odio delectus rem consequatur odit, molestiae veniam iste, suscipit exercitationem? At atque explicabo nesciunt.</p>
+        </div>
+        <div className='stories'>
+          <img src={Anand } alt="img" />
+          <h2>Anand's story</h2>
+          <span>"</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni expedita est, odio delectus rem consequatur odit, molestiae veniam iste, suscipit exercitationem? At atque explicabo nesciunt.</p>
+        </div>
+        <div className='stories'>
+          <img src={Anand } alt="img" />
+          <h2>Asha's story</h2>
+          <span>"</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni expedita est, odio delectus rem consequatur odit, molestiae veniam iste, suscipit exercitationem? At atque explicabo nesciunt.</p>
+        </div>
+        
+      </Slider>
+    </div>
       <img className='storie-img' src={Stories} alt="img" />
+    
+
     </div>
   );
 };

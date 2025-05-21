@@ -58,6 +58,11 @@ background-color:#fda222;
     text-align: center;
     padding: 0px 20px;
 }
+.slider-container{
+    width: 40%;
+    height: 400px;
+    display: none;
+}
 .storie-img{
     width: 78%;
     height: 480px;
@@ -69,26 +74,38 @@ background-color:#fda222;
     .stories{
     background-color: rgb(230, 228, 228);
     width: 100%;
-    height: 300px;
+    height: 400px;
     position: relative;
-    margin-top: 55px;
+    margin-top: 67px;
     border-radius: 15px;
     box-shadow: 10px 15px 10px #1414140d;
     transition:transform .3s ease;
     border: 1px solid rgb(245, 237, 237);
     z-index: 6;
+    
 
 }
 .storiess{
  width: 95%;
  margin: auto;
-height:500px;
+height:300px;
+display: none;
+
+}
+.slider-container{
+    width: 70%;
+    height: 40px;
+    display:block;
+    margin-top: 50px;
+    margin-left: 60px;
+    height: 450px;
 }
 .stories:hover{
 background-color:#fda222;
     color: white;
     transform: translateY(-10px);
 }
+
 .stor-head{
     text-align: center;
     margin-top: 20px;
@@ -102,10 +119,10 @@ background-color:#fda222;
 }
 
 .stories img{
-    width: 55%;
+    width: 35%;
     position: absolute;
-    top: -40px;
-    left:22%;
+    top: -60px;
+    left:30%;
 }
 .stories h2{
     text-align: center;
@@ -122,7 +139,8 @@ background-color:#fda222;
 .stories p{
     text-align: center;
     padding: 0px 20px;
-    display: none;
+    display:block;
+    padding-bottom: 15px;
 }
 .storie-img{
     width: 78%;
